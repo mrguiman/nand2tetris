@@ -11,11 +11,9 @@
 // 'white' in every pixel;
 // the screen should remain fully clear as long as no key is pressed.
 
-// We set MAXROW to the last adressable screen row (by adding 8192-1 number of rows to it)
-@8191
+// We set MAXROW to the last adressable screen row
+@24575
 D=A
-@SCREEN
-D=D+A
 @MAXROW
 M=D
 @SCREEN
